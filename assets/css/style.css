@@ -29,7 +29,6 @@ h3 {
     font-family: Poppins, sans-serif;
     font-size: 18 px;
     font-weight: 400;
-    text-transform: uppercase;
     color: #252525;
 }
 
@@ -39,7 +38,7 @@ p {
     font-weight: 300; 
 }
 
-#logo {
+#title {
     float: left;
     font-family: Poppins, sans-serif;
     font-weight: 500;
@@ -82,4 +81,34 @@ p {
     position: relative;
     background: url('../images/ylanite-koppens.jpg');
     background-size: 100%;
+}
+
+#intro {
+    max-width: 30%;
+    max-height: 30%;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+#intro h2 {
+    font-family: Poppins, sans-serif;
+    text-transform: none;
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+
+#intro h3 {
+    font-family: Poppins, sans-serif;
+    text-transform: none;
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    padding-bottom: 5px;
 }
