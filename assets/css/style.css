@@ -80,11 +80,12 @@ p {
 /*Map Image*/
 
 #globe-image {
-    height: 900px;
+    height: 1200px;
     width: 100%;
     overflow: hidden;
     position: relative;
-    background: url('../images/international-screening.jpg') no-repeat center center;
+    background: url('../images/ylanite-koppens.jpg') no-repeat center center;
+    background-size: 100%;
 }
 
 #intro {
@@ -227,6 +228,7 @@ p {
     overflow: hidden;
     position: relative;
     background: url('../images/4pdHlx.jpg') no-repeat center center;
+    background-size: 100%;
 }
 
 /*Reasons to use GIS*/
@@ -234,8 +236,6 @@ p {
 #reasons {
     background-color: cornflowerblue;
 }
-
-
 
 #reasons h3 {
     font-family: Poppins, sans-serif;
@@ -279,3 +279,26 @@ p {
     margin-right: 200px;
     color: white;
 }
+
+/*Live Maps*/
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
