@@ -285,39 +285,55 @@ header {
 
 /*Live Maps*/
 
-#d-gallery {
-    width: auto;
-    height: 600px;
+#gallery {
+    width: 100%;
+    height: auto;
+    border: 5px solid red;
+    
+}
+
+#left-g {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid black;
 }
 
-div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 600px;
-  }
-  
-  div.gallery:hover {
-    border: 1px solid #777;
-  }
-  
-  div.gallery img {
+#left-g a {
     width: 100%;
-    height: auto;
-  }
-  
-  div.desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+#right-g {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+#right-g a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+div.desc {
     font-family: 'Roboto', sans-serif;
     padding: 15px;
     text-align: center;
+    border: 1px solid black;
   }
 
-  /*Footer*/
+/*Footer*/
 
-  footer {
+footer {
     display: flex;
     justify-content: center;
     padding: 50px;
