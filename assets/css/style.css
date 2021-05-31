@@ -286,46 +286,50 @@ header {
 /*Live Maps*/
 
 #gallery {
-    width: 100%;
+    width: auto;
     height: auto;
-    border: 5px solid red;
-    
+    margin-right: 200px;
+    margin-left: 200px;
 }
 
 #left-g {
-    width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid black;
+}
+
+.left-gallery {
+    flex: 50%;
+    padding: 5px;
 }
 
 #left-g a {
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid black;
+    background-color: black;
 }
 
 #right-g {
-    width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid black;
+}
+
+.right-gallery {
+    flex: 50%;
+    padding: 5px;
 }
 
 #right-g a {
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid black;
+    background-color: black
 }
 
 div.desc {
     font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    text-decoration: underline;
     padding: 15px;
     text-align: center;
     border: 1px solid black;
