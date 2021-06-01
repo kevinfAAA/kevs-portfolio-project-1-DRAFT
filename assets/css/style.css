@@ -351,3 +351,112 @@ footer {
     text-align: center;
     padding: 50px;
 }
+
+/*Viewport sizes from 1250px wide */
+@media only screen and (max-width: 1250px) {
+    
+    #title {
+        font-size: 32px;
+        margin-left: 10px
+    }
+
+    #menu ul {
+        font-size: 24px;
+        margin-left: 10px 
+    }
+
+    #menu li {
+        float: left;
+        margin-right: 20px; 
+        margin-bottom: 10px;
+    }
+
+    #menu {
+        clear: left;
+        float: left;
+        line-height: 25px;
+        margin-top: 75px;
+        position: fixed;
+        right: 0;
+        left: 0;
+        z-index: 999;
+        background-color: black;
+    }
+
+    #intro h2 {
+        font-size: 24px;
+    }
+    
+    #intro p {
+        font-size: 16px;
+    }
+
+
+    .gis-tools div {
+        width: auto;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .gis-tools p {
+        font-size: 12px;
+    }
+
+    #gallery {
+        width: 1250px;
+        height: auto;
+        margin-left: 10px;
+    }
+
+    #left-g {
+        width: 1250px;
+        display: block;
+    }
+
+    #right-g {
+        width: 1250px;
+        display: block;
+    }
+
+  }
+
+/*Viewport sizes from 700px wide*/
+
+  @media only screen and (max-width: 700px) {
+    
+    #title, #menu {
+        width: auto;
+    }
+
+    #title {
+        font-size: 24px;
+        margin-left: 10px
+    }
+    #menu ul {
+        font-size: 16px;
+        margin-left: 10px 
+    }
+
+    
+    #menu li {
+        float: left;
+        margin-right: 20px; 
+    }
+
+    .gis-tools p {
+        font-size: 8px;
+    }
+    #left-g {
+        width: 700px;
+        display: block;
+    }
+
+    #right-g {
+        width: 700px;
+        display: block;
+    }
+}
