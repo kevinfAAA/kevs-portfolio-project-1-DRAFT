@@ -132,6 +132,9 @@ header {
     align-items: center;
 }
 
+.gis-tools div {
+    padding: 10px;
+}
 
 .gis-tools {
     height: 900px;
@@ -149,7 +152,13 @@ header {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     text-align: center;  
-    color: white
+    background-color: white;
+    color: black;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    opacity: 80%;
 }
 
 .gis-tools div {
@@ -167,6 +176,8 @@ header {
 #qgis img {
     float: right;
     margin: 0 center;
+    border-radius: 25px;
+    
 }
 
 #qgis a {
@@ -177,7 +188,9 @@ header {
     text-decoration: underline;
     background-color: white;
     text-transform: uppercase;
+    border-radius: 25px;
 }
+
 #qgis a:hover {
     border: 3px solid green;
   }
@@ -186,6 +199,7 @@ header {
 #fme img {
     float: right;
     margin: 0 center;
+    border-radius: 25px;
 }
 
 #fme a {
@@ -196,6 +210,7 @@ header {
     text-decoration: underline;
     background-color: white;
     text-transform: uppercase;
+    border-radius: 25px;
 }
 
 #fme a:hover {
@@ -206,7 +221,7 @@ header {
 #arcgis img {
     float: left;
     margin: 0 center;
-    border-radius: 50%;
+    border-radius: 25px;
 }
 
 #arcgis a {
@@ -217,6 +232,7 @@ header {
     text-decoration: underline;
     background-color: white;
     text-transform: uppercase;
+    border-radius: 25px;
 }
 
 #arcgis a:hover {
