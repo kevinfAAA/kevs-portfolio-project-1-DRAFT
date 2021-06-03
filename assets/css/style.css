@@ -358,60 +358,16 @@ div.desc {
 
  
 
-/*Footer*/
-
-.footer-basic {
-    padding:40px 0;
-    background-color:#2ab1d3;
-    color:#4b4c4d;
-  }
-  
-  .footer-basic .social {
-    text-align:center;
-    padding-bottom:25px;
-  }
-  
-  .footer-basic .social > a {
-    font-size:24px;
-    width:40px;
-    height:40px;
-    line-height:40px;
-    display:inline-block;
-    text-align:center;
-    border-radius:50%;
-    border:1px solid #ccc;
-    margin:0 8px;
-    color:inherit;
-    opacity:0.75;
-  }
-  
-  .footer-basic .social > a:hover {
-    opacity:0.9;
-  }
-  
-  .footer-basic .copyright {
-    margin-top:15px;
-    text-align:center;
-    font-size:13px;
-    color:#aaa;
-    margin-bottom:0;
-  }
-
 /* Form */
 
-.form-section {
-    height: 500px;
-    background-color: green;
-}
-
 .signup-form {
-    color: black;
-    background-color: rgba(60, 60, 60, 0.6);
+    color: white;
+    background-color: #263238;
     max-width: 300px;
     position: absolute;
     padding: 20px;
     margin-left: 200px;
-    margin-top: 50px;
+   
 }
 .signup-form h2 {
     color: #fafafa;
@@ -448,7 +404,101 @@ div.desc {
     color: #f16c6b;
 }
 
-/*Viewport sizes from 1250px wide */
+/*Footer*/
+
+.form-section {
+    width: 50%;
+    height: auto;
+    margin-left: 200px;
+}
+
+.social {
+    float: right;
+    width: 50%;
+    margin-right: 200px;
+}
+
+.footer-basic {
+    height: 400px;
+    padding:40px 0;
+    background-color:#263238;
+    color:white;
+  }
+  
+  .footer-basic .social {
+    text-align: center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+    margin-top: 150px;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    text-align: center;
+    margin-top: 100px;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+
+
+
+/*Viewport sizes from 1650px wide */
+
+@media only screen and (max-width: 1650px) {
+
+    footer {
+        width:100%;
+    }
+
+    .footer-basic {
+        height: 500px;
+    }
+    
+    .form-section, .social {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float: clear;
+        margin-left: 0;
+        margin-right: 0;
+        border:1px solid black;
+    }
+
+    .form-section {
+        height: 400px;
+        padding: 0 0;
+    }
+
+    .social {
+        height: 100px;
+        margin-top: 0;
+    }
+
+    .footer-basic .social > a {
+        margin-top: 0;
+        margin-right: 0;
+    }
+}
+
+
 @media only screen and (max-width: 1250px) {
     
     #title {
