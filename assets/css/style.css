@@ -79,7 +79,7 @@ header {
 
 
 
-/*Map Image*/
+/*Cumpass Image*/
 
 #cumpass-image {
     height: 900px;
@@ -360,6 +360,7 @@ div.desc {
 
 /* Form */
 
+
 .signup-form {
     color: white;
     background-color: #263238;
@@ -450,7 +451,6 @@ div.desc {
   }
   
   .footer-basic .copyright {
-    text-align: center;
     margin-top: 100px;
     font-size:13px;
     color:#aaa;
@@ -479,7 +479,6 @@ div.desc {
         float: clear;
         margin-left: 0;
         margin-right: 0;
-        border:1px solid black;
     }
 
     .form-section {
@@ -489,7 +488,7 @@ div.desc {
 
     .social {
         height: 100px;
-        margin-top: 0;
+        margin: 0;
     }
 
     .footer-basic .social > a {
@@ -500,6 +499,10 @@ div.desc {
 
 
 @media only screen and (max-width: 1250px) {
+
+    footer {
+        width:100%;
+    }
     
     #title {
         font-size: 32px;
@@ -559,12 +562,12 @@ div.desc {
     }
 
     #left-g {
-        width: 1250px;
+        width: 700px;
         display: block;
     }
 
     #right-g {
-        width: 1250px;
+        width: 700px;
         display: block;
     }
 
@@ -605,4 +608,67 @@ div.desc {
         width: 700px;
         display: block;
     }
+}
+
+/*Viewport sizes from 450px wide*/
+
+@media only screen and (max-width: 450px) {
+
+    #cumpass-image {
+        height: 500px;
+    }
+
+    #intro {
+        max-width: 90%;
+    }
+    
+    .gis-tools {
+        width: 450px
+    }
+
+    
+#works h2 {
+    width: auto;
+    margin-right: 0;
+    margin-left: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    padding: 10px;
+    color: white;
+}
+
+#works h3 {
+    width: auto;
+    margin-right: 0;
+    margin-left: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    padding: 10px;
+    color: white;
+}
+
+#works p {
+    width: auto;
+    margin-right: 0;
+    margin-left: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+#works li {
+    width: auto;
+    margin-right: 0;
+    margin-left: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px;
+    color: white;
+}
+
 }
