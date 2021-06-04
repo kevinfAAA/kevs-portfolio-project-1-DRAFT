@@ -361,7 +361,7 @@ div.desc {
 /* Form */
 
 
-.signup-form {
+.register-form {
     color: white;
     background-color: #263238;
     max-width: 300px;
@@ -370,7 +370,7 @@ div.desc {
     margin-left: 200px;
    
 }
-.signup-form h2 {
+.register-form h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
@@ -389,7 +389,7 @@ div.desc {
     border-color: #f16c6b;
 }
 
-.join-button {
+.register-button {
     margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
@@ -400,7 +400,7 @@ div.desc {
     display: block;
 }
 
-.join-button:hover {
+.register-button:hover {
     background-color: #fafafa;
     color: #f16c6b;
 }
@@ -497,6 +497,7 @@ div.desc {
     }
 }
 
+/*Viewport sizes from 1250px wide */
 
 @media only screen and (max-width: 1250px) {
 
