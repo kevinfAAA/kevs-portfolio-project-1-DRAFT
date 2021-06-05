@@ -1,9 +1,9 @@
-# GETTING STARTED WITH GIS WEBSITE
+# GETTING STARTED WITH GIS 
 
-## Description:
+## Description: Code Institute Student Project: 
 
-### Code Institute Student Project: 
-A website targeted to user’s who are interested in Geographic Information Systems (From here on known as GIS. It showcases my HTML and CSS ability.
+A website targeted to user’s who are interested in Geographic Information Systems (from here on known as GIS). 
+It showcases my HTML and CSS ability.
 
 # Table of Contents
 - [1. Introduction](#introduction)
@@ -62,24 +62,53 @@ Below the social media links is a copyright notice
 ##	Manual Testing
 
 ### Navigation Bar
-GETTING STARTED WITH GIS – when “GETTING STARTED WITH GIS” is left clicked with the mouse, the browser sends the user to the start of the website
-Tools – when “Tools” is left clicked with the mouse, the browser sends the user to the start of the website
-Where – when “Where” is left clicked with the mouse, the browser sends the user to the start of the website
-Live – when “Live” is left clicked with the mouse, the browser sends the user to the start of the website
+#### GETTING STARTED WITH GIS
+- When “GETTING STARTED WITH GIS” is left clicked with the mouse, the browser sends the user to the start of the website. It worked as expected.
+#### Tools
+- When “Tools” is left clicked with the mouse, the browser sends the user to the "GIS Tools" section of the website. It worked as expected.
+#### Where
+- When “Where” is left clicked with the mouse, the browser sends the user to the "Where GIS Works" section of the website. It worked as expected.
+#### Live
+- when “Live” is left clicked with the mouse, the browser sends the user to the "Live Maps" section of the website. It worked as expected.
 
-## Clickable links
 
+### Clickable links
+#### GIS Tools Section
+##### QGIS
+- When the "QGIS" logo image is left clicked with the mouse, the browser sends the user to the QGIS website. It worked as expected.
+##### FME
+- When the "FME" logo image is left clicked with the mouse, the browser sends the user to the FME website. It worked as expected.
+##### ArcGIS
+- When the "ArcGIS" logo image is left clicked with the mouse, the browser sends the user to the ESRI website. It worked as expected.
 
-## Form element
-First name – can add text to the input tag, this work as expected
-Last name – can add text to the input tag, this work as expected
-Email address – can add text to the input tag, this work as expected
+#### Live Maps Section
+##### Marine Traffic
+- When the "Marine Traffic" image is left clicked with the mouse, the browser sends the user to the Marine Traffic website. It worked as expected.
+##### Flight Tracker
+- When the "Marine Traffic" image is left clicked with the mouse, the browser sends the user to the Flight Tracker website. It worked as expected.
+##### Earthquakes Information
+- When the "Marine Traffic" image is left clicked with the mouse, the browser sends the user to the USGS website. It worked as expected.
+##### Global Weather Conditions
+- When the "Marine Traffic" image is left clicked with the mouse, the browser sends the user to the Earth Nullschool website. It worked as expected.
 
-## Footer social media links
-Facebook icon – when the user left clicks on the mouse, a new tab opens and redirects the user to the homepage of the Facebook website. It works as expected.
-Twitter icon – when the user left clicks on the mouse, a new tab opens and redirects the user to the homepage of the Twitter website. It works as expected.
-YouTube icon – when the user left clicks on the mouse, a new tab opens and redirects the user to the homepage of the YouTube website. It works as expected.
-Instagram icon – when the user left clicks on the mouse, a new tab opens and redirects the user to the homepage of the Instagram website. It works as expected.
+### Footer
+#### Form element
+##### First name
+ – can add text to the input tag, It works as expected.
+##### Last name 
+– can add text to the input tag, It works as expected.
+##### Email address 
+– can add text to the input tag, It works as expected.
+
+#### social media links
+##### Facebook
+ – When the Facebook icon is clicked with the mouse, a new tab opens and redirects the user to the homepage of the Facebook website. It works as expected.
+##### Twitter
+ – When the Twitter icon is clicked with the mouse, a new tab opens and redirects the user to the homepage of the Twitter website. It works as expected.
+##### YouTube
+ – When the YouTube icon is clicked with the mouse, a new tab opens and redirects the user to the homepage of the YouTube website. It works as expected.
+##### Instagram
+– When the Instagram icon is clicked with the mouse, a new tab opens and redirects the user to the homepage of the Instagram website. It works as expected.
 
 <a name="bugs"></a>
 
