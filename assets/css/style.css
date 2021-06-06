@@ -175,7 +175,6 @@ header {
 
 #qgis img {
     float: right;
-    margin: 0 center;
     border-radius: 25px;
     
 }
@@ -183,7 +182,6 @@ header {
 #qgis a {
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    margin: 0 center; 
     color: green;
     text-decoration: underline;
     background-color: white;
@@ -198,14 +196,12 @@ header {
 
 #fme img {
     float: right;
-    margin: 0 center;
     border-radius: 25px;
 }
 
 #fme a {
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    margin: 0 center; 
     color: red;
     text-decoration: underline;
     background-color: white;
@@ -220,14 +216,12 @@ header {
 
 #arcgis img {
     float: left;
-    margin: 0 center;
     border-radius: 25px;
 }
 
 #arcgis a {
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    margin: 0 center; 
     color: blue;
     text-decoration: underline;
     background-color: white;
@@ -290,12 +284,17 @@ header {
     border-right: 1px solid blue;
 }
 
+#works ul {
+    text-decoration: none;
+}
+
 #works li {
     width: auto;
     margin-right: 100px;
     margin-left: 100px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+    text-decoration: none;
     font-size: 16px;
     padding: 10px;
     color: white;
@@ -476,7 +475,6 @@ div.desc {
         display: flex;
         justify-content: center;
         align-items: center;
-        float: clear;
         margin-left: 0;
         margin-right: 0;
     }
