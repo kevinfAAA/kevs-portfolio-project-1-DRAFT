@@ -7,7 +7,7 @@ It showcases my HTML and CSS ability.
 
 A live website can be found [here](https://kevinfaaa.github.io/kevs-portfolio-project-1-DRAFT/).
 
-![website preview](assets/images/PP1_responsive_screenshot)
+
 
 # Table of Contents
 - [1. Introduction](#introduction)
@@ -206,20 +206,20 @@ I used [Am I Responsive](http://ami.responsivedesign.is/) to view how my website
 1.	When using the navigation bar in the header to navigate the website, the navigation bar overlays on top of the section heading instead of sitting above it which hiding the title from displaying, scrolling up is required to view the title of the section.
 - Bug not fixed
 2.	At viewport size 1650px and under the footer social media links offset to the left instead of sitting under the form element in the centre of the footer like it is supposed to do.
-- Bug is not fixed
+- Bug is fixed
 3.	At viewport size 1445px and under a horizontal scroll bar appears at the bottom of the viewport screen.
 when using the horizontal scroll bar to scroll to the right of the webpage the live maps section pushes out to the right leaving an area of empty space in the remaining sections and footer. The space increases as the viewport decreases in size.
-- Bug not fixed
+- Bug is fixed
 4.	At viewport size 1250px and under the navigation menu bar which comprises of “Tools”, “Where” and “Live” drops down and sits under the “GETTING STARTED WITH GIS” navigation title bar, the list items changes there position from “Tools”, “Where” , “Live” to “Live”, “Where”, “Tools”
-- Bug not fixed
+- Bug is fixed
 5.	At viewport size 1250px and under, in the live maps section the gallery div floats to the left instead of sitting in the centre of the live maps section under the live maps title.
-- Bug not fixed 
-6.	At viewport size 350px and under the title navigation bar “GETTING STARTED WITH GIS” navigation starts to disappear as the viewport size decrease.
-- Bug is not fixed 
+- Bug is fixed 
+6.	At viewport size 375px and under the title navigation bar “GETTING STARTED WITH GIS” navigation starts to disappear as the viewport size decrease.
+- Bug is fixed 
 7.	At viewport size 350px and under the section headings do not become smaller in as the viewport size decreases.
-- Bug not fixed.
-8.	At viewport size 350px the form section and copyright notice in the footer floats to the right of the footer instead of staying in the centre of the forma-section div.
-- Bug not fixed
+- Bug is fixed.
+8.	At viewport size 350px the form section and copyright notice in the footer floats to the right of the footer instead of staying in the centre of the form-section div.
+- Bug is fixed
 
 <a name="future-updates"></a>
 

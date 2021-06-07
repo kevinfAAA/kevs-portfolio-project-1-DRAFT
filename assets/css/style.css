@@ -408,13 +408,13 @@ div.desc {
 .form-section {
     width: 50%;
     height: auto;
-    margin-left: 200px;
+    margin-left: 100px;
 }
 
 .social {
     float: right;
     width: 50%;
-    margin-right: 200px;
+    margin-right: 100px;
 }
 
 .footer-basic {
@@ -796,428 +796,124 @@ div.desc {
     color:#aaa;
     margin-bottom:0;
   }
- 
-
 }
 
+@media only screen and (max-width: 1250px) {
 
-@media only screen and (min-width: 490px) {
-
-/* header */
-header {
-    width: 100%;
-    height: 75px;
-    background-color: black;
-}
-
-#navbar-fixed-top {
-    position: fixed;
-    right: 0;
-    left: 0;
-    z-index: 999;
+    /* header */
+    header {
+        width: 100%;
+        height: 75px;
+        background-color: black;
     }
-
-#title {
-    float: left;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 40px;
-    text-transform: uppercase;
-    color: white;
-    list-style-type: none;
-    margin-left: 100px;   
-}
-
-#title a {
-    text-decoration: none;
-    color: white;
-}
-
-#title a:hover {
-    border-bottom: 1px solid white;
-}
-
-#menu {
-    font-family: 'Poppins', sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-}
-
-#menu, #title {
-    line-height: 75px;
-}
-
-#menu ul {
-    margin-right: 100px; 
-}
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 50px;  
-}
-
-#menu a {
-    text-decoration: none;
-    color: white;
-}
-
-#menu a:hover {
-    border-bottom: 1px solid white;
-}
-
-
-/*Cumpass Image*/
-
-#cumpass-image {
-    height: 900px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    background: url('../images/ylanite-koppens.jpg') no-repeat center center;
-    background-size: cover;
-    padding-top: 75px;
-}
-
-#intro {
-    max-width: 30%;
-    height: auto;
-    background-color: rgba(168,168,168, 0.5);
-    margin-left: 50px;
-    margin-top: 100px;
-}
-
-#intro h2 {
-    font-family: 'Poppins', sans-serif;
-    text-transform: none;
-    font-weight: 500;
-    font-size: 40px;
-    color: white;
-    padding: 10px;
-}
-
-#intro p {
-    font-family: 'Roboto', sans-serif;
-    text-transform: none;
-    font-weight: 500;
-    font-size: 24px;
-    color: white;
-    padding: 10px;
-}
-
-/*GIS Tools*/
-
-.h-title h2 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 40px;
-    text-transform: uppercase;
-    color: #252525;
-    width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.gis-tools div {
-    padding: 10px;
-}
-
-.gis-tools {
-    height: 900px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    background:linear-gradient(
-        rgba(0, 0, 0, .6),
-        rgba(0, 0, 0, .6)
-      ), url('../images/GIS-Tools_image.jpeg') no-repeat center center;
-    background-size: cover;
-}
-
-.gis-tools p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    text-align: center;  
-    background-color: white;
-    color: black;
-    margin-left: 10px;
-    padding: 10px;
-    border-radius: 10px;
-    margin-right: 10px;
-    opacity: 80%;
-}
-
-.gis-tools div {
-    width: auto;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 100px;
-    margin-left: 100px;
-    border-left: 1px solid gold;
-    border-right: 1px solid gold;
-}
-
-#qgis img {
-    float: right;
-    border-radius: 25px;
     
+    #navbar-fixed-top {
+        position: fixed;
+        right: 0;
+        left: 0;
+        z-index: 999;
+        }
+    
+        #title {
+            font-size: 32px;
+            margin-left: 10px
+        }
+    
+        #menu ul {
+            float: left;
+            font-size: 24px;
+            margin-left: 10px
+        }
+    
+        #menu li {
+            margin-right: 20px; 
+            margin-bottom: 10px;
+        }
+    
+        #menu {
+            line-height: 25px;
+            margin-top: 75px;
+            position: fixed;
+            right: 0;
+            left: 0;
+            z-index: 999;
+            background-color: black;
+        }
 }
 
-#qgis a {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    color: green;
-    text-decoration: underline;
-    background-color: white;
-    text-transform: uppercase;
-    border-radius: 25px;
-}
+@media only screen and (max-width: 375px) {
 
-#qgis a:hover {
-    border: 3px solid green;
-  }
-
-
-#fme img {
-    float: right;
-    border-radius: 25px;
-}
-
-#fme a {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    color: red;
-    text-decoration: underline;
-    background-color: white;
-    text-transform: uppercase;
-    border-radius: 25px;
-}
-
-#fme a:hover {
-    border: 3px solid red;
-  }
-
-
-#arcgis img {
-    float: left;
-    border-radius: 25px;
-}
-
-#arcgis a {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    color: blue;
-    text-decoration: underline;
-    background-color: white;
-    text-transform: uppercase;
-    border-radius: 25px;
-}
-
-#arcgis a:hover {
-    border: 3px solid blue;
-  }
-
-
-
-/*Where GIS Works*/
-
-#works {
-    background:linear-gradient(
-        rgba(0, 102, 255, 0.5),
-        rgba(0, 102, 255, 0.5)
-      ), url('../images/international-screening.jpg') no-repeat center center;
-    background-size: cover;
-}
-
-#works h2 {
-    width: auto;
-    margin-right: 100px;
-    margin-left: 100px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 40px;
-    padding: 10px;
-    color: white;
-    border-left: 1px solid blue;
-    border-right: 1px solid blue;
-}
-
-#works h3 {
-    width: auto;
-    margin-right: 100px;
-    margin-left: 100px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 32px;
-    padding: 10px;
-    color: white;
-    border-left: 1px solid blue;
-    border-right: 1px solid blue;
-}
-
-#works p {
-    width: auto;
-    margin-right: 100px;
-    margin-left: 100px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    padding: 10px;
-    font-size: 18px;
-    color: white;
-    border-left: 1px solid blue;
-    border-right: 1px solid blue;
-}
-
-#works ul {
-    text-decoration: none;
-}
-
-#works li {
-    width: auto;
-    margin-right: 100px;
-    margin-left: 100px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    text-decoration: none;
-    font-size: 16px;
-    padding: 10px;
-    color: white;
-    border-left: 1px solid blue;
-    border-right: 1px solid blue;
-}
-
-/*Live Maps*/
-
-#gallery {
-    width: auto;
-    height: auto;
-    margin-right: 200px;
-    margin-left: 200px;
-}
-
-#left-g {
-    display: flex;
-}
-
-.left-gallery {
-    flex: 50%;
-    padding: 5px;
-}
-
-
-#left-g a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid black;
-    background-color: black;
-}
-
-#right-g {
-    display: flex;
-}
-
-.right-gallery {
-    flex: 50%;
-    padding: 5px;
-}
-
-#right-g a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid black;
-    background-color: black
-}
-
-div.desc {
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-    text-decoration: underline;
-    padding: 15px;
-    text-align: center;
-    border: 1px solid black;
-  }
-
- 
-
-/* Form */
-
-
-.register-form {
-    color: white;
-    background-color: #263238;
-    max-width: 300px;
-    position: absolute;
-    padding: 20px;
-    margin-left: 200px;
-   
-}
-.register-form h2 {
-    color: #fafafa;
-    margin-bottom: 20px;
-}
-
-.text-input {
-    background: transparent;
-    color: #fafafa;
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
-} 
-
-.text-input:hover {
-    border-color: #f16c6b;
-}
-
-.register-button {
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px 15px 32px;
-    text-align: center;
-    font-size: 100%;
-    background-color: #f16c6b;
-    color: #fafafa;
-    display: block;
-}
-
-.register-button:hover {
-    background-color: #fafafa;
-    color: #f16c6b;
-}
+    /* header */
+    header {
+        width: 100%;
+        height: 75px;
+        background-color: black;
+    }
+    
+    #navbar-fixed-top {
+        position: fixed;
+        right: 0;
+        left: 0;
+        z-index: 999;
+        }
+    
+        #title {
+            font-size: 24px;
+            margin-left: 10px
+        }
+    
+        #menu ul {
+            float: left;
+            font-size: 16px;
+            margin-left: 10px
+        }
+    
+        #menu li {
+            margin-right: 20px; 
+            margin-bottom: 10px;
+        }
+    
+        #menu {
+            line-height: 25px;
+            margin-top: 75px;
+            position: fixed;
+            right: 0;
+            left: 0;
+            z-index: 999;
+            background-color: black;
+        }
 
 /*Footer*/
 
-.form-section {
-    width: 50%;
-    height: auto;
-    margin-left: 200px;
-}
-
-.social {
-    float: right;
-    width: 50%;
-    margin-right: 200px;
-}
-
 .footer-basic {
-    height: 400px;
-    padding:40px 0;
+    height: 550px;
     background-color:#263238;
     color:white;
   }
+
+.form-section {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;   
+}
+
+.form-section form{
+    width: 100%;
+    margin-right: 190px;
+}
+
+.social {
+    width: 100%;
+    margin: 0px;
+    margin-right: 0px;
+}
   
   .footer-basic .social {
     text-align: center;
-    padding-bottom:25px;
+    padding-bottom: 25px;
   }
   
   .footer-basic .social > a {
@@ -1232,7 +928,7 @@ div.desc {
     margin:0 8px;
     color:inherit;
     opacity:0.75;
-    margin-top: 150px;
+    margin-top: 50px;
   }
   
   .footer-basic .social > a:hover {
@@ -1240,10 +936,13 @@ div.desc {
   }
   
   .footer-basic .copyright {
-    margin-top: 100px;
-    font-size:13px;
+    margin-top: 50px;
+    font-size: 13px;
     color:#aaa;
     margin-bottom:0;
   }
-
 }
+
+    
+    
+
