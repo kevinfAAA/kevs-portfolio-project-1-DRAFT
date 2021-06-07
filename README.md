@@ -150,7 +150,7 @@ I used [Am I Responsive](http://ami.responsivedesign.is/) to view how my website
 - Ipad.
 - Mobile Phone.
 
-It must be noted that this website is targeted at mobile and desktop media screens. 
+It must be noted that this website is targeted at mobile (iPhone X width 375px), desktop (width 1800px) and laptops (width 1350px) media screens. 
 
 ##	Manual Testing
 
