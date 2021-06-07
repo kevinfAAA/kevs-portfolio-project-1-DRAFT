@@ -7,7 +7,7 @@ It showcases my HTML and CSS ability.
 
 A live website can be found [here](https://kevinfaaa.github.io/kevs-portfolio-project-1-DRAFT/).
 
-
+![Website Homepage](homepage.png)
 
 # Table of Contents
 - [1. Introduction](#introduction)
@@ -24,9 +24,9 @@ A live website can be found [here](https://kevinfaaa.github.io/kevs-portfolio-pr
 
 This is the first website I created and is part of my project portfolio required in the Full-Stack Software Development Diploma I am currently undertaking.
 The aim of the website is to show and inform users of the following:
--	The website should explain with GIS
--	The website should identify commonly used tools to build a GIS
--	The website should give examples of industries where GIS can be applied, to improve it
+-	The website should explain with GIS.
+-	The website should identify commonly used tools to build a GIS.
+-	The website should give examples of industries where GIS can be applied, to improve it.
 -	The website should provide links to interesting live GIS viewers to demonstrate what can be achieved within a GIS and to provide the user with food for thought.
 
 ## How to use
@@ -144,7 +144,13 @@ I used [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_inpu
 
 ##	Am I responsive?
 
-I used [Am I Responsive](http://ami.responsivedesign.is/) to view how my website is displayed on different media viewports. The results suggust a poor User Experience. This will hopefully be rectified in future updates. 
+I used [Am I Responsive](http://ami.responsivedesign.is/) to view how my website is displayed on different media viewports. The results suggust that the webisite is responsive for the follwoing devices:
+- Widescreen desktop.
+- Laptop.
+- Ipad.
+- Mobile Phone.
+
+It must be noted that this website is targeted at mobile and desktop media screens. 
 
 ##	Manual Testing
 
@@ -216,9 +222,9 @@ when using the horizontal scroll bar to scroll to the right of the webpage the l
 - Bug is fixed 
 6.	At viewport size 375px and under the title navigation bar “GETTING STARTED WITH GIS” navigation starts to disappear as the viewport size decrease.
 - Bug is fixed 
-7.	At viewport size 350px and under the section headings do not become smaller in as the viewport size decreases.
+7.	At viewport size 375px and under the section headings do not become smaller in as the viewport size decreases.
 - Bug is fixed.
-8.	At viewport size 350px the form section and copyright notice in the footer floats to the right of the footer instead of staying in the centre of the form-section div.
+8.	At viewport size 375px the form section and copyright notice in the footer floats to the right of the footer instead of staying in the centre of the form-section div.
 - Bug is fixed
 
 <a name="future-updates"></a>
@@ -227,8 +233,9 @@ when using the horizontal scroll bar to scroll to the right of the webpage the l
 
 [Go to the top](#table-of-contents)
 
-- Fix bugs
-- Improve the responsiveness of the website
+- Fix outstanding bugs.
+- Improve the responsiveness of the website by including more media screen sizes.
+
 
 <a name="contribution-links"></a>
 
@@ -236,14 +243,14 @@ when using the horizontal scroll bar to scroll to the right of the webpage the l
 
 [Go to the top](#table-of-contents)
 
-- Font Awesome Icons
-- Developer.mozilla.org 
-- W3.schools.com
-- Google fonts
-- Stack exchange
-- Am I responsive? 
-- W3C Markup validation 
-- W3C CSS validation 
+- Font Awesome Icons (https://fontawesome.com/v4.7/icons/)
+- MDN Web Docs (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
+- W3schools (https://www.w3schools.com/cssref/pr_text_text-align.asp)
+- Google fonts (https://fonts.google.com/)
+- Stack exchange (https://stackexchange.com/)
+- Am I responsive? (http://ami.responsivedesign.is/)
+- W3C Markup validation (https://validator.w3.org/#validate_by_input)
+- W3C CSS validation (https://jigsaw.w3.org/css-validator/)
 
 <a name="deployment"></a>
 
