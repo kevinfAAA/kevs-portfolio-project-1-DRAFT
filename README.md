@@ -7,7 +7,7 @@ It showcases my HTML and CSS ability.
 
 A live website can be found [here](https://kevinfaaa.github.io/kevs-portfolio-project-1-DRAFT/).
 
-![Website Homepage](homepage.png)
+![Website Landing Page](assets/images/LandingPage.PNG)
 
 # Table of Contents
 - [1. Introduction](#introduction)
@@ -16,6 +16,7 @@ A live website can be found [here](https://kevinfaaa.github.io/kevs-portfolio-pr
 - [4. Future Updates](#future-updates)
 - [5. Contribution Links](#contribution-links)
 - [6. Deployment](#deployment)
+- [7. Wireframe](#wireframe)
 
 <a name="introduction"></a>
 
@@ -267,6 +268,30 @@ This webidte was deployed via GitHub Pages. The following steps explain the depl
 - Once master is selected click the save button which is also located in the Source section.
 - Once saved the page will refresh and your site is now published, it may take a few minutes to publish (it is good to be aware of this).
 - A link to your published webiste can now be found at the top of the GitHub pages.
+
+
+<a name="wireframe"></a>
+
+# 7. Wireframe
+
+[Go to the top](#table-of-contents)
+
+
+## Landing Page
+![Wireframe1](assets/images/wireframe/WF1.png)
+
+## Section 1
+![Wireframe2](assets/images/wireframe/WF2.png)
+## Section 2
+![Wireframe3](assets/images/wireframe/WF3.png)
+## Section 3
+![Wireframe4](assets/images/wireframe/WF4.png)
+## Footer
+![Wireframe5](assets/images/wireframe/WF5.png)
+## iPhone X view
+![Wireframe6](assets/images/wireframe/WF6.png)
+## iPhone X view
+![Wireframe7](assets/images/wireframe/WF7.png)
 
 
 
