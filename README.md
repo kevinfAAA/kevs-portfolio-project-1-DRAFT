@@ -25,7 +25,7 @@ A live website can be found [here](https://kevinfaaa.github.io/kevs-portfolio-pr
 
 This is the first website I created and is part of my project portfolio required in the Full-Stack Software Development Diploma I am currently undertaking.
 The aim of the website is to show and inform users of the following:
--	The website should explain with GIS.
+-	The website should explain what GIS is.
 -	The website should identify commonly used tools to build a GIS.
 -	The website should give examples of industries where GIS can be applied, to improve it.
 -	The website should provide links to interesting live GIS viewers to demonstrate what can be achieved within a GIS and to provide the user with food for thought.
@@ -145,11 +145,13 @@ I used [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_inpu
 
 ##	Am I responsive?
 
+![Am I Responsive](assets/images/amiresponsive.PNG)
+
 I used [Am I Responsive](http://ami.responsivedesign.is/) to view how my website is displayed on different media viewports. The results suggust that the webisite is responsive for the follwoing devices:
 - Widescreen desktop.
 - Laptop.
 - Ipad.
-- Mobile Phone.
+- Mobile Phone (iPhone X).
 
 It must be noted that this website is targeted at mobile (iPhone X width 375px), desktop (width 1800px) and laptops (width 1350px) media screens. 
 
@@ -244,14 +246,14 @@ when using the horizontal scroll bar to scroll to the right of the webpage the l
 
 [Go to the top](#table-of-contents)
 
-- Font Awesome Icons (https://fontawesome.com/v4.7/icons/)
-- MDN Web Docs (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
-- W3schools (https://www.w3schools.com/cssref/pr_text_text-align.asp)
-- Google fonts (https://fonts.google.com/)
-- Stack exchange (https://stackexchange.com/)
-- Am I responsive? (http://ami.responsivedesign.is/)
-- W3C Markup validation (https://validator.w3.org/#validate_by_input)
-- W3C CSS validation (https://jigsaw.w3.org/css-validator/)
+- [Font Awesome Icons](https://fontawesome.com/v4.7/icons/)
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
+- [W3schools](https://www.w3schools.com/cssref/pr_text_text-align.asp)
+- [Google fonts](https://fonts.google.com/)
+- [Stack exchange](https://stackexchange.com/)
+- [Am I responsive?](http://ami.responsivedesign.is/)
+- [W3C Markup validation](https://validator.w3.org/#validate_by_input)
+- [W3C CSS validation](https://jigsaw.w3.org/css-validator/)
 
 <a name="deployment"></a>
 
